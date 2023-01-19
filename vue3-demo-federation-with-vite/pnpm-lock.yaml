@@ -10,7 +10,7 @@ importers:
 
   vite-side:
     specifiers:
-      '@originjs/vite-plugin-federation': 1.1.9
+      '@originjs/vite-plugin-federation': 1.1.14
       '@vitejs/plugin-vue': 3.1.0
       '@vue/compiler-sfc': 3.2.39
       vite: 3.1.0
@@ -20,7 +20,7 @@ importers:
       vue: 3.2.37
       vuex: 4.0.2_vue@3.2.37
     devDependencies:
-      '@originjs/vite-plugin-federation': 1.1.9
+      '@originjs/vite-plugin-federation': 1.1.14
       '@vitejs/plugin-vue': 3.1.0_vite@3.1.0+vue@3.2.37
       '@vue/compiler-sfc': 3.2.39
       vite: 3.1.0
@@ -337,12 +337,12 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
 
-  /@originjs/vite-plugin-federation/1.1.9:
-    resolution: {integrity: sha512-JD/+rkGrKVhiTu3ZDxspRXbQNUkQ+hii0oiBuwC4W0i7emEDfbm9yUHAHff5/auYWiWZWCF/ort/oqoWDIbiyg==}
+  /@originjs/vite-plugin-federation/1.1.14:
+    resolution: {integrity: sha512-aEz/J3qgZmSQ1tZXvcLTaLcDFInCY09UZFdvopsJllyGw87dWd0cpvw5LEa6DFIhVoeVzbNFAj3mDk3spbw/LA==}
     engines: {node: '>=14.0.0', pnpm: '>=7.0.1'}
     dependencies:
-      estree-walker: 1.0.1
-      magic-string: 0.25.9
+      estree-walker: 3.0.2
+      magic-string: 0.27.0
     dev: true
 
   /@sideway/address/4.1.4:
@@ -1903,12 +1903,12 @@ packages:
     resolution: {integrity: sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==}
     engines: {node: '>=4.0'}
 
-  /estree-walker/1.0.1:
-    resolution: {integrity: sha512-1fMXF3YP4pZZVozF8j/ZLfvnR8NSIljt56UhbZ5PeeDmmGHpgpdwQt7ITlGvYaQukCvuBRMLEiKiYC+oeIg4cg==}
-    dev: true
-
   /estree-walker/2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
+
+  /estree-walker/3.0.2:
+    resolution: {integrity: sha512-C03BvXCQIH/po+PNPONx/zSM9ziPr9weX8xNhYb/IJtdJ9z+L4z9VKPTB+UTHdmhnIopA2kc419ueyVyHVktwA==}
+    dev: true
 
   /etag/1.8.1:
     resolution: {integrity: sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==}
@@ -2592,6 +2592,13 @@ packages:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
     dependencies:
       sourcemap-codec: 1.4.8
+
+  /magic-string/0.27.0:
+    resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
 
   /make-dir/3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
